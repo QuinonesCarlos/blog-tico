@@ -1,0 +1,434 @@
+#uno {
+    opacity: 0;
+    transform: translateY(-100%);
+}
+
+/*Margen cero y tipo de letra*/
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+.segundo-logo{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+  }
+/*Encabezado flexible y justificado*/
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+/*lista flexible*/
+header ul {
+    margin-top: 22px;
+    display: flex;
+}
+/*Separacion entre secciones*/
+header ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+/*Quitar subrayado*/
+a {
+    text-decoration: none;
+}
+/*Centrar el contenedor*/
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+/*Poner imagen de fondo y darle degradado*/
+header {
+    background: linear-gradient(rgba(3, 28, 255, 0.664),rgba(168, 240, 206, 0.63)), url(../imagenes/dospc.jpg);
+    height: 100vh;
+    background-size: cover; 
+}
+/*Darle estilo al nombre de en medio y al slogan*/
+#contenedor-titulo-flex{
+    display: flex;
+    max-width: 1580px;
+    justify-content: center;
+    width: 100%;
+    margin: 18vh 0;
+}
+/*Estilo al titulo 1*/
+h1  {
+    font-size: 70px;
+    color: #fff;
+    margin: 0;
+}
+/*Estilo al titulo 2*/
+h2 {
+    font-size: 25;
+    color: #ffff;
+    text-align: center;
+}
+/*Centrar todo lo contenido en contenedor-titulo*/
+.contenedor-titulo {
+    text-align: center;
+}
+/*Formato al boton de "Ver nuestros trabajos"*/
+.contenedor-titulo a, #descripcion a, #que-esperas a, #portafolio a,  #contacto input[type="submit"]{
+    font-size: 14px;
+    color: #ffff;
+    background: #1216e763;
+    padding: 14px 24px;
+    width: 66px;
+    display: inline-block;
+}
+
+p.logo {
+    color: #ffff;
+    font-size: 20px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.logito {
+    width:150px; height: 46px;
+}
+
+nav ul li a {
+    color: #ffff;
+}
+
+/* Seccion de descripcion */
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+#descripcion .contenedor-descripcion {
+    display: flex;
+    justify-content: space-around;
+}
+
+#descripcion .texto {
+    width: 42%;
+}
+/*Seccion de nosotros*/
+.contenedor-nosotros{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/*Formato de los contenedores de colores*/
+.nosotros {
+    width: 30%;
+    padding: 34px 30px 38px 30px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    position: relative;
+    color: #ffff;
+}
+
+.nosotros h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.nosotros p {
+    margin-bottom: 20px;
+     height: 194px;
+}
+/*Color del contenedor verde*/
+.contenedor-nosotros .verde {
+    background: linear-gradient(to top, #3bee59, #5beba3);
+    box-shadow: 0 12px 30px 0 rgba(80, 223, 211, 0.37);
+}
+/*Color del contenedor violeta*/
+.contenedor-nosotros .violeta {
+    background: linear-gradient(to top, #893bee, #995beb);
+    box-shadow: 0 12px 30px 0 rgba(142, 80, 223, 0.37);
+}
+/*Acomodo de las ondas de abajo*/
+.ondas {
+    width: 130%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.perfil{
+    float: right;
+}
+/*Seccion portafolio*/
+button.owl-prev, button.owl-next {
+    font-size: 40px !important;
+}
+#portafolio a {
+    text-align: center;
+    padding: 14px 10px;
+    width: 100px;
+}
+/*Seccion servicios*/
+.contenedor-servicios{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/*Formato de los contenedores de colores*/
+.servicios {
+    width: 24%;
+    padding: 34px 30px 38px 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;
+    color: #ffff;
+}
+
+.servicios h4 {
+    font-size: 35px;
+    margin: 0;
+}
+
+.servicios p {
+    margin-bottom: 25px;
+     height: 194px;
+}
+/*Color del contenedor azul*/
+.contenedor-servicios .blue {
+    background: linear-gradient(to top, #3b56ee, #5bb1eb);
+    box-shadow: 0 12px 30px 0 rgba(80, 223, 211, 0.37);
+}
+/*Color del contenedor morado*/
+.contenedor-servicios .purple {
+    background: linear-gradient(to top, #742dc5, #a721c9);
+    box-shadow: 0 12px 30px 0 rgba(142, 80, 223, 0.37);
+}
+/*Acomodo de las ondas de abajo*/
+.ondas {
+    width: 130%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.perfil{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    width: 30%;
+}
+/* Seccion de politicas */
+#politicas .contenedor-politicas {
+    display: flex;
+    justify-content: space-around;
+}
+#politicas .texto {
+    width: 42%;
+}
+/*Seccion que esperas*/
+#que-esperas {
+    background: linear-gradient(rgba(3, 28, 255, 0.842),rgba(168, 240, 206, 0.842)), url(../imagenes/banner_bonis.jpg);
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 40px;
+}
+
+#que-esperas h3 {
+    font-size: 30px;
+    color: #ffff;
+}
+/*Seccion de contacto*/
+/*#contacto form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input[type="text"], input[type="email"]{
+    width: 49%;
+    margin-bottom: 15px;
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 1px solid #995beb;
+    font-size: 17px;
+}
+
+textarea {
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 1px solid #995beb;
+    font-size: 17px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+#contacto input[type="submit"] {
+    margin: auto;
+}*/
+
+.contacto-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.contacto-info img {
+    width: 28px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer {
+    background: #2F2F2F;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer img {
+    margin: 0 40px;
+    transform: rotate(0);
+    transition: 0.4s;
+}
+
+footer img:hover {
+    transform: rotate(360deg);
+    transition: 0.4s;
+}
+
+footer p {
+    color: #ffff;
+    margin-top: 40px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#descripcion {
+    padding: 55px 0;
+}
+
+#nosotros {
+    padding: 55px 0;
+}
+
+#portafolio {
+    padding: 55px 0;
+}
+
+#servicios {
+    padding: 55px 0;
+}
+
+#politicas {
+    padding: 55px 0;
+}
+
+#contacto {
+    padding: 55px 0;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media (max-width: 800px){
+    .menu-icon {
+        display: block;
+        float: right;
+        width: 40px;
+        height: 35px;
+        margin-top: 15px;
+    }
+    header nav {
+        position: absolute;
+        top: 64px;
+        left: 0;
+        height: 200px;
+        background: #370bd4cb;
+        width: 100%;
+        display: none;
+    }
+    header nav ul {
+        flex-direction: column;
+    }
+    header nav ul li {
+        margin-bottom: 15px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    .logito {
+        width: 100px;
+        height: 36px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    #descripcion .contenedor-descripcion {
+        flex-direction: column;
+    }
+    #descripcion img {
+        width: 100%;
+    }
+    #descripcion .texto {
+        width: 100%;
+    }
+    #contenedor .nosotros {
+        flex-direction: column;
+    }
+    .nosotros {
+        width: 82%;
+        padding: 32px 30px 69px 30px;
+    }
+    .perfil {
+        margin-top: 23px;
+    }
+    h3 {
+        font-size: 43px;
+    }
+    #contenedor .servicios {
+        flex-direction: column;
+    }
+    .servicios {
+        width: 82%;
+        padding: 32px 30px 69px 30px;
+    }
+    .perfil {
+        margin-top: 23px;
+    }
+    #politicas .contenedor-politicas {
+        flex-direction: column;
+    }
+    #politicas img {
+        width: 100%;
+    }
+    #politicas .texto {
+        width: 100%;
+    }
+    /*#contacto form {
+        width: 100%;
+        flex-direction: column;
+    }
+    input[type="text"], input[type="email"] {
+        width: 100%
+    }*/
+    .contacto-info {
+        display: grid;
+        justify-content: space-around;
+        margin-top: 60px;
+    }
+}
+@media (min-width: 600px) and (max-width:800px) {
+    header {
+      height: 70vh;
+    }
+    h1 {
+        width: 500px;
+        height: 130px;
+    }
+    .contacto-info {
+        display: grid;
+        justify-content: space-around;
+        margin-top: 60px;
+    }
+  }

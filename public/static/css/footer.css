@@ -1,0 +1,33 @@
+footer {
+    background: #2F2F2F;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer img {
+    margin: 0 40px;
+    transform: rotate(0);
+    transition: 0.4s;
+}
+
+footer img:hover {
+    transform: rotate(360deg);
+    transition: 0.4s;
+}
+
+footer p {
+    color: #ffff;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.parrafo {
+    font-size: 16px;
+}
